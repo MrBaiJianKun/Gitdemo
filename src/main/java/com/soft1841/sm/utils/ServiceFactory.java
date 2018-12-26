@@ -1,4 +1,4 @@
-package com.soft1841.sm.untils;
+package com.soft1841.sm.utils;
 
 import com.soft1841.sm.service.Impl.AdminServiceImpl;
 import com.soft1841.sm.service.Impl.SellerServiceImpl;

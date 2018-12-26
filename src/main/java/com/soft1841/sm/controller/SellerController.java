@@ -1,7 +1,7 @@
 package com.soft1841.sm.controller;
 
 import com.soft1841.sm.service.SellerService;
-import com.soft1841.sm.untils.ServiceFactory;
+import com.soft1841.sm.utils.ServiceFactory;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

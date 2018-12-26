@@ -1,14 +1,11 @@
 package com.soft1841.sm.controller;
 
 
-import cn.hutool.core.comparator.CompareUtil;
 import cn.hutool.db.Entity;
 import com.soft1841.sm.dao.TypeDAO;
 import com.soft1841.sm.entity.Type;
-import com.soft1841.sm.untils.ComponentUntil;
-import com.soft1841.sm.untils.DAOFactory;
-import com.soft1841.sm.untils.ComponentUntil;
-import com.soft1841.sm.untils.DAOFactory;
+import com.soft1841.sm.utils.ComponentUntil;
+import com.soft1841.sm.utils.DAOFactory;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

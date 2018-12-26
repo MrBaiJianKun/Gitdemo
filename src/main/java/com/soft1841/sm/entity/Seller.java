@@ -58,7 +58,7 @@ public class Seller {
 
     @Override
     public String toString() {
-        return "Seller{" +
+        return "SellerApp{" +
                 "id=" + id +
                 ", number='" + number + '\'' +
                 ", name='" + name + '\'' +

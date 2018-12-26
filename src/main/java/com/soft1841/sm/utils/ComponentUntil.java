@@ -1,4 +1,4 @@
-package com.soft1841.sm.untils;
+package com.soft1841.sm.utils;
 import javafx.scene.control.Button;
 public class ComponentUntil {
     //根据传入的文字和主题返回一个按钮

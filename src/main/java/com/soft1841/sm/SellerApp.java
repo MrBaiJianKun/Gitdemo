@@ -6,13 +6,14 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class TypeAPP extends Application {
+public class SellerApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("商品种类");
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/Type.fxml"));
+
+        primaryStage.setTitle("管理员登陆");
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/seller.fxml"));
         Parent root  = fxmlLoader.load();
-        Scene scene = new Scene(root,1000,800);
+        Scene scene = new Scene(root,600,800);
         scene.getStylesheets().addAll("/css/style.css");
         primaryStage.setScene(scene);
         primaryStage.show();

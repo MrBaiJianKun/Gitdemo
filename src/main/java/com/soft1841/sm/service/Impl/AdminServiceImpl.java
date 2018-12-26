@@ -3,7 +3,7 @@ package com.soft1841.sm.service.Impl;
 import com.soft1841.sm.dao.AdminDAO;
 import com.soft1841.sm.entity.Admin;
 import com.soft1841.sm.service.AdminService;
-import com.soft1841.sm.untils.DAOFactory;
+import com.soft1841.sm.utils.DAOFactory;
 
 import java.sql.SQLException;
 

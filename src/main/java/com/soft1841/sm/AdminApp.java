@@ -12,7 +12,7 @@ public class AdminApp extends Application {
         primaryStage.setTitle("管理员登陆");
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/admin.fxml"));
         Parent root  = fxmlLoader.load();
-        Scene scene = new Scene(root,1000,800);
+        Scene scene = new Scene(root,600,800);
         primaryStage.setScene(scene);
         primaryStage.show();
     }

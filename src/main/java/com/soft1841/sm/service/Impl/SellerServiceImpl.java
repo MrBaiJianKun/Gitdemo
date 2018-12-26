@@ -2,7 +2,7 @@ package com.soft1841.sm.service.Impl;
 import com.soft1841.sm.dao.SellerDAO;
 import com.soft1841.sm.entity.Seller;
 import com.soft1841.sm.service.SellerService;
-import com.soft1841.sm.untils.DAOFactory;
+import com.soft1841.sm.utils.DAOFactory;
 
 
 import java.sql.SQLException;
