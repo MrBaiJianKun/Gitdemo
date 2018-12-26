@@ -1,4 +1,4 @@
-package sample;
+package com.soft1841.sm;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,13 +6,13 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class Feizaimain extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/fxml/fz.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/feizai.fxml"));
         primaryStage.setTitle("肥宅的家");
-        primaryStage.setScene(new Scene(root, 1000, 500));
+        primaryStage.setScene(new Scene(root, 800, 500));
         primaryStage.show();
     }
 
