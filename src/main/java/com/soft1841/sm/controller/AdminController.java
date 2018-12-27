@@ -1,5 +1,6 @@
 package com.soft1841.sm.controller;
 
+
 import com.soft1841.sm.service.AdminService;
 import com.soft1841.sm.utils.ServiceFactory;
 import javafx.fxml.FXML;
@@ -8,7 +9,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
