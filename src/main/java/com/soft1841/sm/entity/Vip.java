@@ -1,34 +1,34 @@
 package com.soft1841.sm.entity;
 
-
 import java.util.Date;
 
-public class Vip {
-    private Long id;
+
+
+public class Vip  {
+    private long id;
     private String name;
     private String sex;
-    private String Mobile;
+    private String mobile;
     private String vipNumber;
-    private Date join_date;
+    private Date joinDate;
 
     public Vip() {
-
     }
 
-    public Vip(Long id, String name, String sex, String Mobile, String vipNumber, Date join_date) {
+    public Vip(long id, String name, String sex, String mobile, String vipNumber, Date joinDate) {
         this.id = id;
         this.name = name;
         this.sex = sex;
-        this.Mobile = Mobile;
+        this.mobile = mobile;
         this.vipNumber = vipNumber;
-        this.join_date = join_date;
+        this.joinDate = joinDate;
     }
 
-    public Long getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -49,11 +49,11 @@ public class Vip {
     }
 
     public String getMobile() {
-        return Mobile;
+        return mobile;
     }
 
     public void setMobile(String mobile) {
-        Mobile = mobile;
+        this.mobile = mobile;
     }
 
     public String getVipNumber() {
@@ -64,12 +64,12 @@ public class Vip {
         this.vipNumber = vipNumber;
     }
 
-    public Date getJoin_date() {
-        return join_date;
+    public Date getJoinDate() {
+        return joinDate;
     }
 
-    public void setJoin_date(Date join_date) {
-        this.join_date = join_date;
+    public void setJoinDate(Date joinDate) {
+        this.joinDate = joinDate;
     }
 
     @Override
@@ -78,9 +78,9 @@ public class Vip {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", sex='" + sex + '\'' +
-                ", Mobile='" + Mobile + '\'' +
+                ", mobile='" + mobile + '\'' +
                 ", vipNumber='" + vipNumber + '\'' +
-                ", join_date=" + join_date +
+                ", joinDate=" + joinDate +
                 '}';
     }
 }

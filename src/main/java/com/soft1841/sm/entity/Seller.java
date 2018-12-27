@@ -1,11 +1,14 @@
 package com.soft1841.sm.entity;
 
+
+
 public class Seller {
     private Long id;
     private String number;
     private String name;
     private String password;
     private String avatar;
+
     public Seller() {
     }
     public Seller(Long id, String number, String name, String password, String avatar) {
@@ -58,7 +61,7 @@ public class Seller {
 
     @Override
     public String toString() {
-        return "SellerApp{" +
+        return "Seller{" +
                 "id=" + id +
                 ", number='" + number + '\'' +
                 ", name='" + name + '\'' +

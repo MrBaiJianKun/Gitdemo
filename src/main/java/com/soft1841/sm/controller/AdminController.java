@@ -33,15 +33,15 @@ public class AdminController {
             BorderPane root = fxmlLoader.load();
             Scene scene =  new Scene(root);
             mainStage.setTitle("超市管理系统");
-            mainStage.setMaximized(true);
-            mainStage.setMaximized(true);
-            mainStage.setScene(scene);
-            mainStage.show();
-            Stage loginStage = (Stage) user.getScene().getWindow();
-            loginStage.close();
-        }else {
-            alert.setContentText("账号密码错误，请重新登录！");
-            alert.showAndWait();
-        }
-    }
-}
+                    mainStage.setMaximized(true);
+                    mainStage.setMaximized(true);
+                    mainStage.setScene(scene);
+                    mainStage.show();
+                    Stage loginStage = (Stage) user.getScene().getWindow();
+                    loginStage.close();
+                    }else {
+                    alert.setContentText("账号密码错误，请重新登录！");
+                    alert.showAndWait();
+                    }
+                    }
+                    }
