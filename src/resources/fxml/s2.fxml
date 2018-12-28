@@ -75,7 +75,7 @@
 
         <AnchorPane AnchorPane.leftAnchor="10.0"  AnchorPane.topAnchor="250.0" prefHeight="615.0" prefWidth="1200.0" >
             <children>
-                <TableView prefHeight="388.0" prefWidth="95011.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"  AnchorPane.topAnchor="45.0">
+                <TableView prefHeight="388.0" prefWidth="950.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"  AnchorPane.topAnchor="45.0">
                     <columns>
                         <TableColumn prefWidth="75.0" text="类别" />
                     </columns>
