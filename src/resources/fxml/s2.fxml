@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane    fx:controller="com.soft1841.sm.controller.MainSellerController" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10"
+               AnchorPane.topAnchor="10.0" prefHeight="898.0" prefWidth="1408.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <Label AnchorPane.leftAnchor="750.0"  AnchorPane.topAnchor="20.0" prefHeight="69.0" prefWidth="370.0" text="晨光超市收银系统">
+    <font>
+        <Font size="39.0" />
+    </font>
+    </Label>
+    <AnchorPane   AnchorPane.leftAnchor="460.0"  AnchorPane.topAnchor="10.0" >
+        <TextField layoutX="667.0" layoutY="249.0" prefHeight="69.0" prefWidth="243.0" text="应收：">
+            <font>
+                <Font size="35.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="919.0" layoutY="249.0" prefHeight="69.0" prefWidth="243.0" text="实收：">
+            <font>
+                <Font size="35.0" />
+            </font>
+        </TextField>
+        <Button layoutX="1024.0" layoutY="782.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="清空" />
+        <Button layoutX="880.0" layoutY="782.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="132.0" text="删除" />
+        <Button layoutX="1185.0" layoutY="571.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="111.0" text="￥20" />
+        <Button layoutX="1185.0" layoutY="461.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="111.0" text="￥50" />
+        <Button layoutX="1185.0" layoutY="362.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="111.0" text="￥100" />
+        <Button layoutX="1185.0" layoutY="668.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="111.0" text="￥10" />
+        <Button layoutX="1153.0" layoutY="759.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="143.0" text="结算" />
+        <Button layoutX="1185.0" layoutY="249.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="111.0" text="找零" />
+        <Button layoutX="666.0" layoutY="362.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="174.0" text="现金支付">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button layoutX="663.0" layoutY="766.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="180.0" text="心连心信用">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+        <Button layoutX="663.0" layoutY="668.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="银行卡">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Button>
+        <Button layoutX="666.0" layoutY="562.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="174.0" text="微信支付">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="666.0" layoutY="461.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="174.0" text="支付宝">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Button>
+
+        <Button layoutX="1103.0" layoutY="571.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="59.0" text="3" />
+        <Button layoutX="900.0" layoutY="461.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="59.0" text="4" />
+        <Button layoutX="900.0" layoutY="362.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="59.0" text="7" />
+        <Button layoutX="1002.0" layoutY="671.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="59.0" text="00" />
+        <Button layoutX="1002.0" layoutY="571.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="59.0" text="2" />
+        <Button layoutX="1002.0" layoutY="461.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="59.0" text="5" />
+        <Button layoutX="1002.0" layoutY="362.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="59.0" text="8" />
+        <Button layoutX="1103.0" layoutY="671.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="59.0" text="." />
+        <Button layoutX="1103.0" layoutY="461.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="59.0" text="6" />
+        <Button layoutX="1103.0" layoutY="362.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="59.0" text="9" />
+        <Button layoutX="900.0" layoutY="571.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="59.0" text="1" />
+        <Button layoutX="900.0" layoutY="674.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="59.0" text="0" />
+
+    </AnchorPane>
+    <children>
+
+        <AnchorPane AnchorPane.leftAnchor="10.0"  AnchorPane.topAnchor="250.0" prefHeight="615.0" prefWidth="1200.0" >
+            <children>
+                <TableView prefHeight="388.0" prefWidth="95011.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"  AnchorPane.topAnchor="45.0">
+                    <columns>
+                        <TableColumn prefWidth="75.0" text="类别" />
+                    </columns>
+                </TableView>
+
+
+                    <TextField AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" prefWidth="600 " prefHeight="40"/>
+                    <Button mnemonicParsing="false" text="查询" AnchorPane.leftAnchor="600" AnchorPane.topAnchor="0.0" prefWidth="80 " prefHeight="40"/>
+                    <Button fx:id="listButton" mnemonicParsing="false" text="全部商品" AnchorPane.leftAnchor="860.0" AnchorPane.topAnchor="0.0" onAction="#listGoods" prefWidth="90 " prefHeight="40"/>
+
+            </children>
+
+
+        </AnchorPane>
+    </children>
+</AnchorPane>

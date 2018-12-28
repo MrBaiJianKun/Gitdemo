@@ -28,7 +28,7 @@ public class SellerController {
             alert.setContentText("登录成功！");
             alert.showAndWait();
             Stage mainStage = new Stage();
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/mainseller.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/s2.fxml"));
             AnchorPane root = fxmlLoader.load();
             Scene scene =  new Scene(root);
             mainStage.setTitle("收银员界面");

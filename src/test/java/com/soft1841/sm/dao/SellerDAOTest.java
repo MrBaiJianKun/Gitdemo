@@ -14,7 +14,7 @@ public class SellerDAOTest {
 
     @Test
     public void getSellerByNumber() throws SQLException {
-        Seller seller = sellerDAO.getSellerByNumber("666001");
+        Seller seller = sellerDAO.getSellerByNumber("111222");
         System.out.println(seller);
 
     }

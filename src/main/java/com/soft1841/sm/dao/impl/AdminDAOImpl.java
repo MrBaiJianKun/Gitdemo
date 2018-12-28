@@ -10,12 +10,12 @@ import java.sql.SQLException;
 public class AdminDAOImpl implements AdminDAO {
     @Override
     public Admin getAdminByNumber(String adminNumber) throws SQLException {
-        Entity entity =  Db.use().queryOne("SELECT * FROM t_admin WHERE adminNumber = ? ",adminNumber );
+        Entity entity =  Db.use().queryOne("SELECT * FROM t_admin WHERE admin_number = ? ",adminNumber );
         return convertAdmin(entity);
     }
     private Admin convertAdmin(Entity entity) {
         Admin admin =  new Admin(entity.getLong("id"),entity.getStr("name"),
-                entity.getStr("adminNumber"),entity.getStr("password"));
+                entity.getStr("admin_number"),entity.getStr("password"));
         return admin;
 
     }
