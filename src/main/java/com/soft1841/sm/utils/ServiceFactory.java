@@ -1,12 +1,8 @@
 package com.soft1841.sm.utils;
 
 
-import com.soft1841.sm.service.GoodsService;
+import com.soft1841.sm.service.*;
 import com.soft1841.sm.service.Impl.*;
-import com.soft1841.sm.service.SellerService;
-import com.soft1841.sm.service.TypeService;
-
-
 
 
 public class ServiceFactory {
@@ -16,5 +12,10 @@ public class ServiceFactory {
     }
     public static AdminServiceImpl getAdminServiceInstance(){ return new AdminServiceImpl(); }
     public static GoodsService getGoodsServiceInstance() { return new GoodsServiceImpl(); }
+    public static VipService getVipDAOInstance(){return  new VipServiceImpl(); }
+
+
+    public static SellerGoodsService getSellerGoodsServiceInstance() {return new SellerGoodsServiceImpl();  }
+
 
 }

@@ -9,8 +9,6 @@ import java.sql.SQLException;
 public interface SellerGoodsDAO {
     /**
      * 查询所有商品
-     * @return
-     * @throws SQLException
      */
     Goods getAllGoods() throws SQLException;
 

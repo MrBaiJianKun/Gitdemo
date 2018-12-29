@@ -21,6 +21,9 @@ public class DAOFactory {
 
 
     public  static VipDAO geeVipDAOInstance(){return  new VipDAOImpl();}
+    public static SellerGoodsDAO getSellerGoodsDAOInstance() {
+        return new SellerGoodsDAOImpl();
+    }
 
 
 }

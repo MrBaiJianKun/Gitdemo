@@ -8,7 +8,6 @@ public interface SellerGoodsService {
 
     /**
      * 查询所有商品
-     * @return
      */
     List<Goods>getAllGooods();
 

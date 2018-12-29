@@ -32,6 +32,7 @@ public class AdminController {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/main.fxml"));
             BorderPane root = fxmlLoader.load();
             Scene scene =  new Scene(root);
+            scene.getStylesheets().addAll("/css/style.css");
             mainStage.setTitle("超市管理系统");
                     mainStage.setMaximized(true);
                     mainStage.setMaximized(true);

@@ -9,24 +9,16 @@ import java.util.List;
 public interface VipDAO {
     /**
      * 查询所有Vip信息
-     * @return List<Vip>
-     * @throws SQLException
      */
     List<Vip> selectVip()throws SQLException;
 
     /**
      * 根据id删除实体
-     * @param id
-     * @return
-     * @throws SQLException
      */
     int deleteById(long id) throws SQLException;
 
     /**
      * 新增一个会员，返回自增主键
-     * @param vip
-     * @return
-     * @throws SQLException
      */
     Long insertVip(Vip vip) throws SQLException;
 

@@ -12,34 +12,22 @@ import java.util.List;
 public interface GoodsDAO {
     /**
      * 新增商品，返回自增主键
-     *
-     * @param goods
-     * @return
-     * @throws SQLException
      */
     Long insertGoods(Goods goods) throws SQLException;
 
     /**
      * 根据id删除商品
-     *
-     * @param id
-     * @return
      */
     int deleteGoodsById(long id) throws SQLException;
 
     /**
      * 更新商品信息
-     *
-     * @param goods
-     * @return
      */
     int updateGoods(Goods goods) throws SQLException;
 
 
     /**
      * 查询所有商品
-     *
-     * @return
      */
     List<Goods> selectAllGoods() throws SQLException;
 

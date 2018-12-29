@@ -13,6 +13,7 @@ public class AdminApp extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/admin.fxml"));
         Parent root  = fxmlLoader.load();
         Scene scene = new Scene(root,600,800);
+        scene.getStylesheets().addAll("/css/style.css");
         primaryStage.setScene(scene);
         primaryStage.show();
     }

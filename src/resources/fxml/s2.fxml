@@ -82,9 +82,9 @@
                 </TableView>
 
 
-                    <TextField AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" prefWidth="600 " prefHeight="40"/>
-                    <Button mnemonicParsing="false" text="查询" AnchorPane.leftAnchor="600" AnchorPane.topAnchor="0.0" prefWidth="80 " prefHeight="40"/>
-                    <Button fx:id="listButton" mnemonicParsing="false" text="全部商品" AnchorPane.leftAnchor="860.0" AnchorPane.topAnchor="0.0" onAction="#listGoods" prefWidth="90 " prefHeight="40"/>
+                    <TextField AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" prefWidth="560 " prefHeight="40"/>
+                    <Button mnemonicParsing="false" text="查询" AnchorPane.leftAnchor="570" AnchorPane.topAnchor="0.0" prefWidth="80 " prefHeight="40"/>
+                    <Button fx:id="listButton" mnemonicParsing="false" text="Vip优惠" AnchorPane.leftAnchor="860.0" AnchorPane.topAnchor="0.0" onAction="#listGoods" prefWidth="90 " prefHeight="40"/>
 
             </children>
 
