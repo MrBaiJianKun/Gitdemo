@@ -44,9 +44,6 @@ public class VipDAOImpl implements VipDAO {
 
     /**
      * 将Entity转换为Vip
-     *
-     * @param entity
-     * @return Vip
      */
 
     private Vip convertVip(Entity entity) {
