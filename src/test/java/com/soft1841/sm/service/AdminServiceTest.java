@@ -8,7 +8,7 @@ public class AdminServiceTest {
 
     @Test
     public void login() {
-        boolean flag = adminService.login("000001","111");
+        boolean flag = adminService.login("123456","123");
         System.out.println(flag);
     }
 }

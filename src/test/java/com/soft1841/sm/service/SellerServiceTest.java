@@ -11,7 +11,7 @@ public class SellerServiceTest {
 
     @Test
     public void login() {
-        boolean flag = sellerService.login("666001","001");
+        boolean flag = sellerService.login("111222","123456");
         System.out.println(flag);
 
     }

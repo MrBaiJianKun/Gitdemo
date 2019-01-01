@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GoodsServiceImpl implements GoodsService {
-    private GoodsDAO goodsDAO = (GoodsDAO) DAOFactory.getSellerDAOInstance();
+    private GoodsDAO goodsDAO = (GoodsDAO) DAOFactory.getGoodsDAOInstance();
     @Override
     public Long addGoods(Goods goods) {
         long result = 0;

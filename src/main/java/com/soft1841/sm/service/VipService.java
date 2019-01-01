@@ -1,10 +1,13 @@
 package com.soft1841.sm.service;
 
-import com.soft1841.sm.entity.Vip;
+        import com.soft1841.sm.entity.Vip;
 
-import java.util.List;
+        import java.util.List;
 
-
+/**
+ * 会员业务逻辑接口
+ * @author 白
+ */
 
 public interface VipService {
     /**

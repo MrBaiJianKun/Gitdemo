@@ -19,7 +19,11 @@ import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
 
-
+/**
+ * 增加商品的Controller
+ * @author 白
+ * 2018-12-26
+ */
 
 public class AddGoodsController  implements Initializable {
     private ObservableList<Goods> goodsData = FXCollections.observableArrayList();

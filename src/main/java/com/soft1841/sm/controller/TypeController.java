@@ -29,7 +29,7 @@ public class TypeController implements Initializable {
     private ObservableList<Type> typeData = FXCollections.observableArrayList();
 
     //通过工厂类获得TypeDAO的实例
-    private TypeService typeService  = (TypeService) ServiceFactory.getSellerServiceInstance();
+    private TypeService typeService  = (TypeService) ServiceFactory.getTypeServiceInstance();
 
     //定义实体集合，用来存放数据库查询结果
     private List<Type> typeList;

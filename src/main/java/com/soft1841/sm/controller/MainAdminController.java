@@ -8,6 +8,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.StackPane;
 
 import java.net.URL;
@@ -23,6 +24,12 @@ public class MainAdminController implements Initializable {
 
     public void listType() throws Exception {
         switchView("type.fxml");
+    }
+    public  void listGoods() throws  Exception{
+        switchView("goods.fxml");
+    }
+    public  void listVip() throws  Exception {
+        switchView("vip.fxml");
     }
 
     private void switchView(String fileName) throws Exception {

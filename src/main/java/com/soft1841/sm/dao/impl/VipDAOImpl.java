@@ -9,15 +9,19 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * Vip DAO的实现类
+ * @author 白
+ * 2018-12-27
+ */
 
 public class VipDAOImpl implements VipDAO {
 
     @Override
     public List<Vip> selectVip() throws SQLException {
-        List<Entity> entityList = Db.use().query("SELECT * FROM t_vip ");
+        List<Entity> entityList =  Db.use().query("SELECT * FROM t_vip ");
         List<Vip> vipList = new ArrayList<>();
-        for (Entity entity : entityList) {
+        for (Entity entity: entityList) {
             vipList.add(convertVip(entity));
         }
         return vipList;
@@ -34,16 +38,19 @@ public class VipDAOImpl implements VipDAO {
     public Long insertVip(Vip vip) throws SQLException {
         return Db.use().insertForGeneratedKey(
                 Entity.create("t_vip")
-                        .set("name", vip.getName())
-                        .set("sex", vip.getSex())
-                        .set("mobile", vip.getMobile())
-                        .set("vipNumber", vip.getVipNumber())
-                        .set("joinDate", vip.getJoinDate())
+                        .set("name",vip.getName())
+                        .set("sex" , vip.getSex())
+                        .set("mobile",vip.getMobile())
+                        .set("vipNumber",vip.getVipNumber())
+                        .set("joinDate" ,vip.getJoinDate())
         );
     }
 
     /**
      * 将Entity转换为Vip
+     *
+     * @param entity
+     * @return Vip
      */
 
     private Vip convertVip(Entity entity) {

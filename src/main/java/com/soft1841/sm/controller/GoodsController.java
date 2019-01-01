@@ -20,6 +20,7 @@ import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
@@ -208,12 +209,12 @@ public class GoodsController implements Initializable {
     //弹出新增商品界面方法
     public void newGoodsStage() throws Exception {
         Stage addGoodsStage = new Stage();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/add_goods.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/addgoods.fxml"));
         AnchorPane root = fxmlLoader.load();
         Scene scene = new Scene(root);
         AddGoodsController addBookController = fxmlLoader.getController();
         addBookController.setGoodsData(goodsData);
-        addGoodsStage.setTitle("新增图书界面");
+        addGoodsStage.setTitle("新增商品界面");
         //界面大小不可变
         addGoodsStage.setResizable(false);
         addGoodsStage.setScene(scene);
