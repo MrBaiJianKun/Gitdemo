@@ -43,6 +43,8 @@ public class VipDAOImpl implements VipDAO {
                         .set("mobile",vip.getMobile())
                         .set("vipNumber",vip.getVipNumber())
                         .set("joinDate" ,vip.getJoinDate())
+                        .set("picture",vip.getPicture())
+
         );
     }
 
@@ -61,6 +63,7 @@ public class VipDAOImpl implements VipDAO {
         vip.setMobile(entity.getStr("mobile"));
         vip.setVipNumber(entity.getStr("vip_number"));
         vip.setJoinDate(entity.getDate("join_date"));
+        vip.setPicture(entity.getStr("picture"));
         return vip;
 
     }

@@ -11,17 +11,19 @@ public class Vip  {
     private String mobile;
     private String vipNumber;
     private Date joinDate;
+    private String picture;
 
     public Vip() {
     }
 
-    public Vip(long id, String name, String sex, String mobile, String vipNumber, Date joinDate) {
+    public Vip(long id, String name, String sex, String mobile, String vipNumber, Date joinDate, String picture) {
         this.id = id;
         this.name = name;
         this.sex = sex;
         this.mobile = mobile;
         this.vipNumber = vipNumber;
         this.joinDate = joinDate;
+        this.picture = picture;
     }
 
     public long getId() {
@@ -72,6 +74,14 @@ public class Vip  {
         this.joinDate = joinDate;
     }
 
+    public String getPicture() {
+        return picture;
+    }
+
+    public void setPicture(String picture) {
+        this.picture = picture;
+    }
+
     @Override
     public String toString() {
         return "Vip{" +
@@ -81,6 +91,7 @@ public class Vip  {
                 ", mobile='" + mobile + '\'' +
                 ", vipNumber='" + vipNumber + '\'' +
                 ", joinDate=" + joinDate +
+                ", picture='" + picture + '\'' +
                 '}';
     }
 }
